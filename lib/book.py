@@ -3,7 +3,7 @@
 class Book:
     def __init__(self, title, page_count=0):
         self.title = title
-        self._page_count = page_count
+        self.page_count = page_count
 
     def turn_page(self):
         print("Flipping the page...wow, you read fast!")

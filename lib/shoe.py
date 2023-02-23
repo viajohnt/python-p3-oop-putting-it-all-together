@@ -3,7 +3,7 @@
 class Shoe:
     def __init__(self, brand, size=0):
         self.brand = brand
-        self._size = size
+        self.size = size
 
     def cobble(self):
         self.condition = "New"
